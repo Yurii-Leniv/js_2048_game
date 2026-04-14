@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         losemessage.classList.add('hidden');
       }
       game.restart();
+
       render();
 
       start.textContent = 'Start';
